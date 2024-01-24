@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { LandingPageComponent } from './landing-page/component/landing-page/landing-page.component';
 import { FormsModule } from '@angular/forms';
 import { CoreModule } from './core/core.module';
+import { AuthModule } from './auth/auth.module';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { CoreModule } from './core/core.module';
     FormsModule,
     HttpClientModule,
     CoreModule,
+    AuthModule
   ],
   bootstrap: [AppComponent]
 })
